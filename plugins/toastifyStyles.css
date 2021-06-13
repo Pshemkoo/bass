@@ -1,0 +1,11 @@
+.Toastify__progress-bar {
+  background: rgb(255, 255, 255);
+}
+
+.toast-success {
+  background: #4bb543;
+}
+
+.toast-error {
+  background: #ff1a47;
+}

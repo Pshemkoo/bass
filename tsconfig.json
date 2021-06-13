@@ -1,0 +1,65 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "preserve",
+    "lib": [
+      "dom",
+      "es2017"
+    ],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "preserveConstEnums": true,
+    "removeComments": false,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "esnext",
+    "baseUrl": ".",
+    "paths": {
+      "@/api-repository/*": [
+        "api-repository/*"
+      ],
+      "@/components/*": [
+        "components/*"
+      ],
+      "@/constants/*": [
+        "constants/*"
+      ],
+      "@/plugins/*": [
+        "plugins/*"
+      ],
+      "@/services/*": [
+        "services/*"
+      ],
+      "@/styles": [
+        "styles/index"
+      ],
+      "@/utils/*": [
+        "utils/*"
+      ],
+      "@/providers/*": [
+        "providers/*"
+      ],
+      "@/hooks/*": [
+        "hooks/*"
+      ]
+    },
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true
+  },
+  "exclude": [
+    "node_modules",
+    "build"
+  ], // *** The files to not type check ***
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ]
+}
